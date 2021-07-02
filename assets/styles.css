@@ -1,0 +1,92 @@
+body {
+  background-color: whitesmoke;
+  font-family: Roboto, Arial, Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  padding: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+}
+
+.group-item {
+  margin: 0 1rem;
+  color:grey;
+}
+
+.menu-button {
+  margin-right: 1rem;
+
+}
+
+.search-field {
+  width: 500px;
+  height: 30px;
+  border: 1px solid silver;
+  border-radius: 2px 0px 0px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 0px 2px 3px 2px rgba(200,200,200,0.2);
+}
+.search-field input {
+  border: 0;
+  width: 100%;
+  background: none;
+}
+
+.search-button {
+  width: 70px;
+  height: 30px;
+  border: 1px solid silver;
+  border-radius: 0px 2px 2px 0px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-video {
+  width: 56vw; 
+  height: 31.5vw;
+}
+
+article {
+  margin: 1.5rem;
+
+}
+.recommended {
+  background-color: khaki;
+  width:400px;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.stat-group {
+  display: flex;
+  align-items: center;
+}
